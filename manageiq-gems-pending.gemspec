@@ -58,6 +58,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "rbvmomi",                 "~>1.9.4"
   s.add_runtime_dependency "rest-client",             "~>2.0.0"
   s.add_runtime_dependency "rubyzip",                 "~>1.2.0"
+  s.add_runtime_dependency "ruby-kafka",              "~>0.3.0"
   s.add_runtime_dependency "rufus-lru",               "~>1.0.3"
   s.add_runtime_dependency "sys-proctable",           "~>1.1.3"
   s.add_runtime_dependency "sys-uname",               "~>1.0.1"

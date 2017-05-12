@@ -76,7 +76,7 @@ class OpenstackEventMonitor
   def self.event_monitor_selected_class(options)
     case options[:events_monitor]
     when :ceilometer
-      OpenstackCeilometerEventMonitor
+      OpenstackKafkaEventMonitor
     when :amqp
       OpenstackRabbitEventMonitor
     else
